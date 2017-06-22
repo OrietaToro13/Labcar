@@ -117,38 +117,40 @@
     </div>
   </section>
   <section class="tarifa bg-warning">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-lg-6 text-white">
-          <h2> Tarifas</h2>
-          <h4 class="font-os font-300">Consulta las tarifas Labcar aquí</h4>
-        <div class="row">
-            <div class="col-xs-2 col-lg-2 mt-6">
-              <label for="partida"><span class="glyphicon glyphicon-record text-white"></span></label>
-            </div>
-            <div class="col-xs-10 col-lg-10 mt-6">
-              <input type="text" class="form-control input-tarifa">
-            </div>
-          </div>
-        <div class="row">
-              <div class="col-xs-2  col-lg-2 mt-6">
-                <label for="destino"><span class="glyphicon glyphicon-send text-white"></span></label>
-              </div>
-              <div class="col-xs-10 col-lg-10 mt-6">
-                <input type="text" class="form-control input-tarifa">
-              </div>
-                <button type="button" class="btn btn-default center-block" name="button"><b>¡Trazar Ruta!</b></button>
-          </div>
-        </div>
-        <div class="col-lg-6 hidden-xs">
-          <div class="thumbnail">
-            <div id="map"></div>
-          </div>
-        </div>
-      </div>
-    </div>
+	    <div class="container">
+		    <div class="row">
+			    <div class="col-xs-12 col-lg-6 text-white">
+			          <h2> Tarifas</h2>
+			          <h4 class="font-os font-300">Consulta las tarifas Labcar aquí</h4>
+			        <div class="row">
+			            <div class="col-xs-2 col-lg-2 mt-6">
+			              <label for="partida"><span class="glyphicon glyphicon-record text-white"></span></label>
+			            </div>
+			            <div class="col-xs-10 col-lg-10 mt-6">
+			              <input type="text" class="form-control input-tarifa">
+			            </div>
+			        </div>
+			        <div class="row">
+			            <div class="col-xs-2  col-lg-2 mt-6">
+			                <label for="destino"><span class="glyphicon glyphicon-send text-white"></span></label>
+			            </div>
+			            <div class="col-xs-10 col-lg-10 mt-6">
+			                <input type="text" class="form-control input-tarifa">
+			            </div>
+			                <button type="button" class="btn btn-default center-block" name="button"><b>¡Trazar Ruta!</b></button>
+			        </div>
+			    </div>
+			    <div class="col-lg-6" id="map">
+			          <!--<div class="thumbnail">
+			            <div id="map"></div>
+			          </div> -->
+		        </div>
+	     	 </div>
+	    </div>
+    
   </section>
-  <!-- mapa---- aqui iria  -->
+  
+ 
   <footer>
     <div class="container">
       <div class="row hidden-lg">
@@ -237,10 +239,14 @@
   </div>
   </footer>
 
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC61AOZB3BZkT_Mqr_ZKUP4WFrdWlLo4wgcontent_copy&callback=initMap"
+   async defer></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB736Ig1QbJnfTTwj9LH3WR-YT2lepeC0w&callback=initMap" defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC61AOZB3BZkT_Mqr_ZKUP4WFrdWlLo4wgcontent_copy&libraries=places&callback=initMap" async defer></script>
 <!-- js -->
-  <script type="text/javascript" src="assets/main.js"></script>
+  <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 </html>

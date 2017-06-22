@@ -149,6 +149,7 @@ nav img{
   }
 }
 /*tarifa*/
+/*
 .tarifa{
   height: 350px;
 }
@@ -158,10 +159,6 @@ nav img{
 }
 .tarifa button{
   margin-top: 20%;
-}
-#map{
-  width: 100%;
-  height: 70vh;
 }
 @media screen and (min-width:768px) {
   .tarifa{
@@ -176,7 +173,13 @@ nav img{
     padding: 1%;
 
   }
-}
+  */
+  #map{
+    width: 41%;
+    height: 70vh;
+    border: 2px solid white;
+    margin-left: 5%;
+  }
 /*footer*/
 
 footer{
