@@ -189,5 +189,11 @@ footer img{
   footer{
     margin-top: 0;
   }
+  .redes-sociales{
+    margin-top: 300px;
+    margin-left: 6%;
+    color: white;
+    font-size: 20px;
 
+}
 }
