@@ -5,7 +5,36 @@
 .text-white{
   color: #fff;
 }
-
+.bg-warning, .btn-warning{
+  background-color: #f7b617;
+}
+.font-40{
+  font-size: 40px;
+}
+.font-25{
+  font-size: 25px;
+}
+.font-300{
+  font-weight: 300;
+}
+.font-500{
+  font-weight: 500;
+}
+.mt-12{
+  margin-top: 12%;
+}
+.mt-6{
+  margin-top: 6%;
+}
+.mt-5{
+  margin-top: 5%;
+}
+.mt-70{
+  margin-top: 70%;
+}
+.mb-5{
+  margin-bottom: 5%;
+}
 /*NAVBAR*/
 .navbar-default{
   background-color: #fff;
@@ -49,7 +78,7 @@ nav img{
     display: inline-block;
   }
 }
-/*Seccion HERO*/
+/*HERO*/
 .container-fluid{
   margin-top: -6%;
 }
@@ -88,7 +117,7 @@ nav img{
     height: 400px;
   }
 }
-/*seccion info*/
+/*info*/
 .thumbnail{
   background-color: transparent;
   width: 300px;
@@ -100,4 +129,65 @@ nav img{
     margin-left: -10%;
     padding-left: 6%;
   }
+}
+/*conduce*/
+.div-conduce{
+  width: 360px;
+  height: 100%;
+  position: absolute;
+  margin-top: -66.8%;
+  padding: 5%;
+  background-color: rgba(23,8,45,0.4)
+}
+@media screen and (min-width: 768px) {
+  .div-conduce{
+    right: 0;
+    margin-top: 0;
+    width: 500px;
+    height: 900px;
+    padding: 5%;
+  }
+}
+/*tarifa*/
+.tarifa{
+  height: 350px;
+}
+.input-tarifa{
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+.tarifa button{
+  margin-top: 20%;
+}
+#map{
+  width: 100%;
+  height: 70vh;
+}
+@media screen and (min-width:768px) {
+  .tarifa{
+    height: 550px;
+  }
+  .tarifa h2{
+    margin-top: 20%;
+  }
+  .tarifa .thumbnail{
+    margin: 5%;
+    height: 490px;
+    padding: 1%;
+
+  }
+}
+/*footer*/
+
+footer{
+  background-color: #333333;
+}
+footer img{
+  padding: 3%;
+}
+@media screen and (min-width:768px) {
+  footer{
+    margin-top: 0;
+  }
+
 }
